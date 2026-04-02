@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    color: rgb(9, 9, 9);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header & Navigation */
+.header {
+    background-color: rgba(57, 57, 58, 0.95);
+    backdrop-filter: blur(10px);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: -70px;
+}
+.logo img {
+    height: 90px;
+    width: auto;
+}
+.navbar {
+    padding: 1rem 0;
+}
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.school-name {
+    padding-bottom: 30px;
+    font-family: "Lato Heavy";
+    font-style: normal;
+    font-variant-caps: inherit;
+}
+.marks-record {
+    font-family: "Lato Medium";
+    font-style: normal;
+    top: 0;
+    padding-right: 2px;
+    right: 0;
+    font-variant-caps: inherit;
+}
